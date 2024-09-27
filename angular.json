@@ -78,7 +78,8 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
             "buildTarget": "lottery:build:development",
-            "port": 4200
+            "port": 4200,
+            "liveReload": false
           },
           "configurations": {
             "production": {
@@ -106,6 +107,7 @@
       "path": "./target/angular/",
       "environment": "all"
     },
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": false
   }
 }
